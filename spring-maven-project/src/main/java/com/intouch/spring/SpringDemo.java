@@ -13,5 +13,7 @@ public class SpringDemo {
         Date now=context.getBean(Date.class);
         DateFormat dateFormat=context.getBean(SimpleDateFormat.class);
         System.out.println("当前时间"+dateFormat.format(now));
+//版本werwerwer
+        System.out.println("修改");
     }
 }
